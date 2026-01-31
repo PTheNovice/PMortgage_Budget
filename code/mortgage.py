@@ -98,7 +98,7 @@ class Mortgage:
 
 
 if __name__ == "__main__":
-    mortgage = Mortgage(200000, 20000, 3.5, 4500, 1200, 2500, 0, 30)
+    mortgage = Mortgage(200000, 20000, 8, 4500, 1200, 2500, 0, 30)
     print(f' {mortgage.mortgage_calculation():.2f}')  # Works well!
 
     # P = float(input("What is your Principal?"))
